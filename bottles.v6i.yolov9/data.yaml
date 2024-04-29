@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bottle']
+
+roboflow:
+  workspace: project-t8ndn
+  project: bottles-pcttk
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-t8ndn/bottles-pcttk/dataset/6
